@@ -1,0 +1,22 @@
+1. struct为interface的变量
+
+其中包含了 实现者的类型 或实现者的指针(指向实现者)
+
+
+
+
+2. type
+
+
+type switch
+
+type assertion
+
+
+
+
+3.接口
+
+任何类型 interface{}     即所有类型都默认实现空接口 都为这个接口
+
+接口组合

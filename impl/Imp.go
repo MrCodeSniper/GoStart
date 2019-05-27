@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-//其实就是一个类
+//类
 type Retriver struct {
 	Content string
 }
@@ -15,6 +15,21 @@ type Retriver struct {
 func (retriver Retriver) GetContent(url string) string {
 	return retriver.Content + url
 }
+
+//实现post方法
+func (retriver Retriver)  Post(str string,form map[string]string)string{
+	 retriver.Content=form["test"]
+	 return "ok"
+}
+
+
+
+
+
+
+
+
+
 
 type NetConnect struct {
 	UserAgent string        //用户设备
@@ -37,3 +52,8 @@ func (connect NetConnect) GetContent(url string) string {
 
 	return string(bytes)
 }
+
+
+
+
+//调用者

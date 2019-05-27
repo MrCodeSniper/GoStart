@@ -1,7 +1,8 @@
 package main
 
 import (
-	"awesomeProject/impl"
+	"GoStart/impl"
+	"GoStart/queue"
 	"fmt"
 	"time"
 )
@@ -14,8 +15,32 @@ type Retriver interface {
 	GetContent(str string) string
 }
 
+type Poster interface { //定义一个接口Post
+	Post(str string,form map[string]string)string
+}
+
+type Composite interface { //组合接口
+	Retriver
+	Poster
+}
+
 func invoke(r Retriver) string { //这个方法接受一个类实现了GetContent方法 再调用这个类的GetContent方法
 	return r.GetContent("http://www.baidu.com")
+}
+
+
+//默认调用方法
+func post(poster Poster)string{
+	return poster.Post("xxx", map[string]string{
+		"test":"ddd",
+	})
+}
+
+func session(composite Composite) string{
+	composite.Post("yyy", map[string]string{
+		"test":"xxx",
+	})
+	return composite.GetContent("pppp")
 }
 
 func main() {
@@ -36,16 +61,33 @@ func main() {
 	}
 	fmt.Printf("%T ,%v\n", r, r) //接口的具体类型  具体类型的成员变量
 
-	//inspect(r) typeassertion类型判断
+	//inspect(r)
 
+	// typeassertion 类型判断
 	types, ok := r.(impl.NetConnect)
-
 	if ok {
 		fmt.Println("xxx", types, types.TimeOut)
 	}
 
+
+
+    q:=queue.Queue{}
+    q.Push("字符串")
+    q.Push(5)
+    q.Push(true)
+    q.Pop()
+
+
+
+    fmt.Println(q,q.IsEmpty())
+
+
+    session(retriver)
+
+
 }
 
+//typeswitch 类型筛选
 func inspect(r Retriver) {
 	switch v := r.(type) {
 	case impl.NetConnect:
