@@ -45,14 +45,14 @@ func session(composite Composite) string{
 
 func main() {
 	//实现类
-	retriver := impl.Retriver{"this"}
+	retriver := &impl.Retriver{"this"}
 	fmt.Print(invoke(retriver))
 	fmt.Println()
 	//connect:=impl.NetConnect{"陈鸿的PC",time.Minute}
 	//fmt.Println(invoke(connect))
 
 	var r Retriver
-	r = impl.Retriver{} //
+	r = &impl.Retriver{} //
 	//因为需要传入指针接受值
 	r = impl.NetConnect{"陈鸿的PC", time.Minute} // 接口 可以为 一个实现了接口方法的构造类
 	r = impl.NetConnect{
@@ -82,17 +82,30 @@ func main() {
     fmt.Println(q,q.IsEmpty())
 
 
-    session(retriver)
+    fmt.Println(session(retriver))
+
+
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
 
 //typeswitch 类型筛选
 func inspect(r Retriver) {
 	switch v := r.(type) {
 	case impl.NetConnect:
 		fmt.Println(v.GetContent("http://www.baidu.com"))
-	case impl.Retriver:
+	case *impl.Retriver:
 		fmt.Println("xxx")
 	}
 }

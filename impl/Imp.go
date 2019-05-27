@@ -12,12 +12,12 @@ type Retriver struct {
 }
 
 //这个类实现了Get方法
-func (retriver Retriver) GetContent(url string) string {
+func (retriver *Retriver) GetContent(url string) string {
 	return retriver.Content + url
 }
 
 //实现post方法
-func (retriver Retriver)  Post(str string,form map[string]string)string{
+func (retriver *Retriver)  Post(str string,form map[string]string)string{
 	 retriver.Content=form["test"]
 	 return "ok"
 }
