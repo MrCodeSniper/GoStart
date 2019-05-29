@@ -20,11 +20,8 @@ func main() {
 func tryRecover(){
 
 
-	defer func() {
-
-		r:=recover()
-
-
+	defer func() { //函数执行完后执行
+		r:=recover()//recover返回函数挂的原因 是error类型
 		if err,ok := r.(error);ok{
 			//如果这个类型是错误
 			log1 := logrus.New()

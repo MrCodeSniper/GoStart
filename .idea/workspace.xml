@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76c838d5-83d1-4475-a31d-745a58b02e95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/feature/LanguageFeature.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sync/Sync.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/container/calcu.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/container/nonrepeating.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/container/repeating_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/container/triangle_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/container/测试" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fileserver/file.go" beforeDir="false" afterPath="$PROJECT_DIR$/fileserver/file.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inter/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/inter/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,66 +20,82 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inter/Manager.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="752">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fileserver/file.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="304">
+              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/feature/LanguageFeature.go">
+        <entry file="file://$PROJECT_DIR$/container/nonrepeating.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
-              <folding>
-                <element signature="e#14#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="432">
+              <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/container/calcu.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/container/repeating_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/container/triangle_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/container/测试">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="467">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sync/Sync.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="592">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sync/Sync.go">
+        <entry file="file://$PROJECT_DIR$/inter/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-              <folding>
-                <element signature="e#14#42#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="459">
+              <caret line="112" column="42" selection-start-line="112" selection-start-column="42" selection-end-line="112" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/konsorten/go-windows-terminal-sequences/go.mod">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fib.txt">
+        <entry file="file://$PROJECT_DIR$/../builtin/builtin.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="46" selection-start-column="46" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fib/fib.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="177">
+              <caret line="188" column="5" selection-start-line="188" selection-start-column="5" selection-end-line="188" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -82,29 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inter/Method.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/impl/Imp.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="832">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
-              <folding>
-                <element signature="e#14#65#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme/Learn.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
+            <state relative-caret-position="-608">
+              <caret line="30" selection-start-line="29" selection-start-column="28" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -115,6 +115,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -122,7 +123,11 @@
     <findStrings>
       <find>recommendResponseList</find>
       <find>Recor</find>
+      <find>tryRecover</find>
     </findStrings>
+    <dirStrings>
+      <dir>C:\Go\src\GoStart</dir>
+    </dirStrings>
   </component>
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
@@ -133,20 +138,25 @@
       <list>
         <option value="$PROJECT_DIR$/queue/queue.go" />
         <option value="$PROJECT_DIR$/impl/Imp.go" />
-        <option value="$PROJECT_DIR$/inter/main.go" />
         <option value="$PROJECT_DIR$/inter/Method.go" />
         <option value="$PROJECT_DIR$/fib/fib.go" />
         <option value="$PROJECT_DIR$/inter/Manager.go" />
         <option value="$PROJECT_DIR$/Sirupsen/logrus/terminal_check_windows.go" />
         <option value="$PROJECT_DIR$/readme/Learn.txt" />
-        <option value="$PROJECT_DIR$/fileserver/file.go" />
         <option value="$PROJECT_DIR$/feature/LanguageFeature.go" />
         <option value="$PROJECT_DIR$/sync/Sync.go" />
+        <option value="$PROJECT_DIR$/fileserver/file.go" />
+        <option value="$PROJECT_DIR$/container/calcu.go" />
+        <option value="$PROJECT_DIR$/container/triangle_test.go" />
+        <option value="$PROJECT_DIR$/container/repeating_test.go" />
+        <option value="$PROJECT_DIR$/container/测试" />
+        <option value="$PROJECT_DIR$/container/nonrepeating.go" />
+        <option value="$PROJECT_DIR$/inter/main.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="546" />
+    <option name="x" value="509" />
     <option name="y" value="41" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
@@ -169,7 +179,12 @@
             <path>
               <item name="GoStart" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoStart" type="462c0819:PsiDirectoryNode" />
-              <item name="sync" type="462c0819:PsiDirectoryNode" />
+              <item name="container" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoStart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoStart" type="462c0819:PsiDirectoryNode" />
+              <item name="inter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GoStart" type="b2602c69:ProjectViewProjectNode" />
@@ -199,7 +214,7 @@
               <item name="Go SDK 1.12.5" type="20ee2d1f:SyntheticLibraryElementNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="GoStart" type="462c0819:PsiDirectoryNode" />
-              <item name="sync" type="462c0819:PsiDirectoryNode" />
+              <item name="container" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -209,17 +224,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/container" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Go\src\GoStart\container" />
       <recent name="C:\Go\src\GoStart" />
     </key>
   </component>
@@ -235,72 +251,130 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build Sync.go">
-    <configuration name="go build LanguageFeature.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build main.go">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/feature/LanguageFeature.go" />
+      <filePath value="$PROJECT_DIR$/inter/main.go" />
       <package value="GoStart" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build Manager.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build nonrepeating.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/inter/Manager.go" />
+      <filePath value="$PROJECT_DIR$/container/nonrepeating.go" />
       <package value="GoStart" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build Method.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="BenchmarkSubString in GoStart/container" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/inter/Method.go" />
-      <package value="GoStart" />
+      <working_directory value="$PROJECT_DIR$/container" />
+      <framework value="gobench" />
+      <kind value="PACKAGE" />
+      <package value="GoStart/container" />
       <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^BenchmarkSubString$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build Sync.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSubString in GoStart/container" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/sync/Sync.go" />
-      <package value="GoStart" />
+      <working_directory value="$PROJECT_DIR$/container" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="GoStart/container" />
       <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestSubString$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build file.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestTriangle in GoStart/container" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/fileserver/file.go" />
-      <package value="GoStart" />
+      <working_directory value="$PROJECT_DIR$/container" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="GoStart/container" />
       <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestTriangle$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build Sync.go" />
-        <item itemvalue="Go Build.go build LanguageFeature.go" />
-        <item itemvalue="Go Build.go build file.go" />
-        <item itemvalue="Go Build.go build Manager.go" />
-        <item itemvalue="Go Build.go build Method.go" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Test.TestSubString in GoStart/container" />
+        <item itemvalue="Go Test.BenchmarkSubString in GoStart/container" />
+        <item itemvalue="Go Test.TestTriangle in GoStart/container" />
+        <item itemvalue="Go Build.go build nonrepeating.go" />
       </list>
     </recent_temporary>
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestTriangle_in_GoStart_container - 2019.05.29 at 11h 42m 56s.xml">
+      <configuration name="TestTriangle in GoStart/container" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestTriangle_in_GoStart_container - 2019.05.29 at 11h 43m 08s.xml">
+      <configuration name="TestTriangle in GoStart/container" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSubString_in_GoStart_container - 2019.05.29 at 16h 05m 14s.xml">
+      <configuration name="TestSubString in GoStart/container" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSubString_in_GoStart_container - 2019.05.29 at 16h 05m 29s.xml">
+      <configuration name="TestSubString in GoStart/container" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSubString_in_GoStart_container - 2019.05.29 at 16h 20m 09s.xml">
+      <configuration name="TestSubString in GoStart/container" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkSubString_in_GoStart_container - 2019.05.29 at 16h 38m 43s.xml">
+      <configuration name="BenchmarkSubString in GoStart/container" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="BenchmarkSubString_in_GoStart_container - 2019.05.29 at 16h 53m 05s.xml">
+      <configuration name="BenchmarkSubString in GoStart/container" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSubString_in_GoStart_container - 2019.05.29 at 16h 53m 20s.xml">
+      <configuration name="TestSubString in GoStart/container" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSubString_in_GoStart_container - 2019.05.29 at 16h 54m 18s.xml">
+      <configuration name="TestSubString in GoStart/container" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="546" y="41" width="1400" height="1000" extended-state="0" />
+    <frame x="509" y="41" width="1400" height="1000" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25373134" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25746268" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49925372" visible="true" weight="0.37759817" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49925372" visible="true" weight="0.35681292" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995381" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50074625" side_tool="true" weight="0.37759817" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32985073" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25746268" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925372" visible="true" weight="0.37759817" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995381" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -313,10 +387,25 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/container/repeating_test.go</url>
+          <line>4</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/GoStart$TestSubString_in_GoStart_container.out" NAME="TestSubString in GoStart/container Coverage Results" MODIFIED="1559118009095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/queue/queue.go">
@@ -333,17 +422,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inter/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1312">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inter/Manager.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="752">
           <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature/LanguageFeature.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1136">
+          <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -364,13 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inter/Method.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/impl/Imp.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="832">
@@ -388,30 +473,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fileserver/file.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/feature/LanguageFeature.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
-          <folding>
-            <element signature="e#14#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sync/Sync.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="e#14#42#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="592">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inter/Method.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-608">
+          <caret line="30" selection-start-line="29" selection-start-column="28" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../runtime/proc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="203" selection-start-line="203" selection-end-line="203" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../fmt/print.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1812">
+          <caret line="274" column="11" lean-forward="true" selection-start-line="273" selection-start-column="11" selection-end-line="274" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fileserver/file.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/container/triangle_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/container/测试">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/container/calcu.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/container/repeating_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/container/nonrepeating.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="29" column="20" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="188" column="5" selection-start-line="188" selection-start-column="5" selection-end-line="188" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inter/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="112" column="42" selection-start-line="112" selection-start-column="42" selection-end-line="112" selection-end-column="42" />
         </state>
       </provider>
     </entry>
