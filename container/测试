@@ -43,7 +43,7 @@ go tool cover -html=c.out  将覆盖率结果转为html查看
 
 go  test -bench .  将目录所有测试 执行性能测试
 
-go test -bench . -cpuprofile cpu.out  将性能测试的cpu结果输出
+go test -bench . -cpuprofile cpu.out  将性能测试的cpu结果输出 cpu.out为二进制文件
 
 go tool pprof cpu.out  出现交互式命令行   再输入web可以在网页上看到 各个部分的执行时间 方框越大耗时越多
 
@@ -78,12 +78,12 @@ go clean -testcache 清除测试结果缓存
 testing.B 具有功能 拥有testing.T 的全部接口，同时还可以统计内存消耗，指定并行数目和操作计时器等
 B.N 当循环执行这个时候 B.N先为1   函数的执行时机<上限值 (1S) 会增大B.N 直到执行时机超过上限值 循环结束
 benchmark的执行次数是被测函数的执行次数 不是测试函数的执行次数
+
+使用pprof进行优化
 3.示例测试 example         函数名 Example*  (任何)
 
 
-
-
-API测试
+API测试 HTTP SERVER测试
 集成测试
 灰度测试
 
