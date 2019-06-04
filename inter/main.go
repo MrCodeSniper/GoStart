@@ -110,6 +110,65 @@ func main() {
 	ch1 :=make(chan<- int,3) //创建单向的接受通道
 	ch2 :=make(<-chan int,3) //创建单向的发送通道
 
+	fmt.Println(ch1,ch2) //打印变量的内存地址
+
+
+
+	c:=make(chan int)
+
+	//fatal error: all goroutines are asleep - deadlock!
+	//channel 是goroutine之间交互的媒介 不能在相同的go routine中收 需要新建goroutine
+	//必须先开协程再入通道
+	//c<-1
+	//c<-2
+	//n:= <-c
+	//fmt.Println(n)
+
+	// fatal error: all goroutines are asleep - deadlock! 通道没有数据 取数据导致堵塞
+	//go func() {
+	//	v:= <-c
+	//	fmt.Println(v)
+	//}()
+
+
+
+
+
+	//这里只打印了1个值 因为子线程执行到第二步时 进程已经结束了 需要主线程wait
+	go func() {
+		for{
+			v:= <-c
+			fmt.Println(v)
+		}
+	}()
+
+
+	c<- 3
+	c<- 4
+
+	time.Sleep(time.Second)
+
+
+	go Workder(c) //通道作为参数 子线程函数
+
+
+	c<- 5
+	c<- 6
+
+
+
+	time.Sleep(time.Second)
+
+
+	c2:=createWorker() //返回channel 内部包含channel操作
+
+	c2<- 0
+	c2<- 10
+
+	close(c2)//关闭通道 之后接收到的值都为0 需要判断并退出死循环
+
+	time.Sleep(time.Second)
+
 	//作用为限定类型  接口方法接受单向通道 比如发送方法  只能使用接受通道
 
 //对通道的发送和接收操作都有哪些基本的特性
@@ -148,11 +207,32 @@ func main() {
 
 }
 
+//chan 作为参数
+func Workder(c chan int){
+	for{
+		v:= <-c
+		fmt.Println(v)
+	}
+}
+
+//chan 作为返回值
+
+func createWorker() chan int{
+	c:=make(chan int)
+	go func() {
+		for{
+			v,ok:=<-c
+			if !ok{ //没有值退出循环 不再接收值 或者通过range 缓冲容量 接收固定个数值
+				break
+			}
+			fmt.Println(v)
+		}
+	}()
+	return c
+}
 
 
-
-
-
+//关闭channel
 
 
 
