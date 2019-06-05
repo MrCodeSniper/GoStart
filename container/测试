@@ -49,6 +49,8 @@ go tool pprof cpu.out  出现交互式命令行   再输入web可以在网页上
 
 go clean -testcache 清除测试结果缓存
 
+go tool pprof http://localhost:8888/debug/profile  打印http的性能
+
 -cpu XX 设置最大cpu核心数量  一台计算机的cpu核心个数 代表它同一时刻能同时多少条命令
 一个P核心能承载多个goroutine（用户级线程） 而这些G能跟Machine(系统级线程)进行对接
 每个核心维持一个goroutine队列

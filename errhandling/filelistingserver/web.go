@@ -6,21 +6,17 @@ import (
 	"net/http"
 	_ "net/http/pprof"
 	"os"
-
-
 )
 
 type appHandler func(writer http.ResponseWriter,
 	request *http.Request) error
-
-
 
 /**
   panic错
   system error
 
 
- */
+*/
 func errWrapper(
 	handler appHandler) func(
 	http.ResponseWriter, *http.Request) {
@@ -66,20 +62,13 @@ func errWrapper(
 	}
 }
 
-
-
-
-
-
 type userError interface {
 	error
 	Message() string
 }
 
 func main() {
-	http.HandleFunc("/",
-		errWrapper(filelisting.HandleFileList))
-
+	http.HandleFunc("/", errWrapper(filelisting.HandleFileList))
 	err := http.ListenAndServe(":9999", nil)
 	if err != nil {
 		panic(err)

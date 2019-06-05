@@ -1,7 +1,7 @@
 package main
 
 import (
-	"GoStart/Sirupsen/logrus"
+	"GoStart/third/Sirupsen/logrus"
 	"fmt"
 	"io/ioutil"
 	"net/http"
